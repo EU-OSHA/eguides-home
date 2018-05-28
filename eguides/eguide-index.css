@@ -1,0 +1,387 @@
+.block {
+    margin-bottom: 1.5em;
+}
+.bodymedium {
+    font-size: 0.9em;
+}
+.bodybig {
+    font-size: 1.1em;
+}
+.bodysmall {
+    font-size: 0.7em;
+}
+body {
+    margin: 0 0;
+    font-family: "Open Sans",verdana,sans-serif;
+    overflow-y: scroll;
+    font-size: 0.8em;
+}
+
+header {
+    padding-top: 25px;
+}
+html {
+    font-family: Verdana,Tahoma,"DejaVu Sans",sans-serif;
+    font-size: 75%;
+    font-size: 87.5%;
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.5em;
+    min-height: 100%;
+	position: relative;
+}
+.menu_item{
+	min-height: 5em;
+}
+
+#agencyLogo{
+	margin-bottom: 2em
+}
+
+#block-menu-block-1 .menu li {
+    float: left;
+    list-style-image: none!important;
+    list-style-type: none!important;
+    color: #003399;
+    font-weight: bold;
+    list-style: none;
+    float: left;
+    font-size: 0.875em;
+    text-align: center;
+    border-left: 1px solid #FFF;
+    padding: 0.8em 0.2em;
+    width: 13%;
+}
+.menu_item {
+    min-height: 5em;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+#block-menu-block-1 .menu-block-1 .menu {
+    clear: both;
+    border-bottom: 5px solid #002f9d;
+    font-size: medium;
+    margin-bottom: 0px;
+    background-color: #cfddee;
+    list-style-type: none;
+    padding-left: 0px;
+    height: 39px;
+    margin-right: 1px;
+}
+#main {
+    background-color: #FFFFFF;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 15px;
+    padding-left: 15px;
+    clear: both;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+#agencyLogo img {
+    margin-top: -0.9em;
+}
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+a {
+    cursor: pointer;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;   
+}
+#agencyLogo {
+    float: left;
+    margin-left: 1em;
+    z-index: 999999;
+}
+#europeLogo {
+    float: left;
+    margin: 2em 2em 1em 2.7em;
+    z-index: 999999;
+}
+#multi-lingual-award {
+    float: left;
+    margin-top: -11px;
+}
+h1{
+	font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.15em;
+    color: #003399;
+    letter-spacing: -0.75px;
+    margin-bottom: 4px;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 0.2em;
+    line-height: 1.2em;
+    padding-top: 0.1em;
+    font-weight: bold;
+}
+footer {
+    background: #575958;
+    color: #FFF;
+    margin: 0 auto;
+    width: 100%;
+    overflow: auto;
+    padding: 10px 10px 0px;
+    margin-top: 0em;
+    
+}
+footer a {
+    color: #FFF!important;
+    text-decoration: none;
+}
+
+.col-md-6 {
+	float:left;
+	border:1px solid red;
+}
+#content a {
+	text-decoration: none;
+	color: #003399;
+}
+
+.introduction-title a {
+    position: absolute;
+    bottom: 5px;
+    font-family: 'Open Sans Condensed',!sans-serif important;
+    text-decoration: none;
+    color: #003399;
+    border: 0px !important;
+}
+
+.introduction-title {
+    text-decoration: none;
+    color: #001791 !important;
+    padding-right: 1.3em !important;
+    font-family: 'Open Sans Condensed',sans-serif;
+    font-size: 1.35em;
+    font-style: normal;
+    font-weight: bold;
+    color: #001791;
+    letter-spacing: -0.5px;
+    margin-bottom: 0.2em;
+    border-bottom: 10px solid #d2dced;
+    height: 47px;
+    line-height: 1.2em;
+    padding-top: 1em;
+    padding-bottom: 0.2em;
+    width: 100%;
+    position: relative;
+}
+
+.menu-block-3 ul li {
+    list-style-type: none!important;
+    list-style-image: none!important;
+    margin: 0;
+    padding: 1em;
+    float: left;
+    margin-right: 1.5em;
+    margin-bottom: 0.5em;
+}
+.menu-id3{
+	clear:both;
+}
+
+.menu-block-3 ul{
+    max-width: 730px;
+    margin: 0 auto;
+}
+#block-menu{
+    min-height: 34em;
+}
+
+#block-menu img{
+width: 20em;
+}
+
+.osha_target_external_link {
+    background: url(/eguides/external_link.png) no-repeat scroll 0 0 rgba(0,0,0,0);
+    margin-left: 0.5em!important;
+    padding-right: 0.8em!important;
+    float: none!important;
+} 
+
+#google_translate_element{
+    float: right;
+    margin-right: 2em;
+    clear: both;
+    margin-top: -6em;
+}
+
+#block-social{
+    float: right; 
+}
+
+#block-social ul{
+    list-style: none;
+}
+
+#block-social li{
+    display: inline;
+    list-style-type: none;
+    font-size: 1em;
+    margin: 5px 1.5em 0 0;
+}
+#contact a{
+    color: #003399;
+    text-decoration: none;
+    border-bottom: 0px!important;
+    display: inline-block;
+}
+.a_small a {
+    padding-right: 0.2em;
+    border-bottom: 0px!important;
+}
+
+#contact {
+    margin-right: 10px;
+    margin-bottom: 30px;
+    float: right;
+    width: 18em;
+}
+
+.a_big a {
+    font-size: 2em!important;
+    border-bottom: 0px!important;
+}
+.a_medium a {
+    padding-right: 0.2em;
+    font-size: 1.5em!important;
+    border-bottom: 0px!important;
+}
+
+.bodybig #google_translate_element{
+    margin-top: -4.8em;
+}
+
+
+.bodybig #contact {
+    width: 16em;
+}
+
+
+.bodysmall #google_translate_element{
+    margin-top: -7.8em;
+}
+
+.bodysmall #contact {
+    width: 22em;
+}
+
+.bodybig .menu-block-3 ul {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bodybig #footer-first-line{
+    margin-top: 10px;
+}
+
+@media only screen and (max-width : 870px) {
+
+header{
+    padding-top: 0px;
+}
+#agencyLogo{
+    margin-bottom: 0px;
+    display: inline-block;
+    margin-top: 15px;
+}
+#agencyLogo a{
+    display: block;
+    overflow: hidden;
+}
+#agencyLogo a img{
+    max-width: 160px;
+    margin-top: 0px;
+}
+#europeLogo{
+    display: inline-block;
+    float: left;
+    margin: 2em 1em 1em 0.7em;
+}
+#multi-lingual-award{
+    display: inline-block;
+    clear: right;
+    float: right;
+    margin-top: 5px;
+}
+#contact{
+    width: 51px;
+    margin-bottom: 0px;
+    float: left;
+    margin-left: 20px;
+    clear: both;
+}
+#google_translate_element{
+    margin-top: 0px;
+    float: left;
+    margin-left: 20px;
+    display: inline-block;
+    clear: left;
+    margin-bottom: 15px;
+}
+
+}/*End tablet*/
+
+
+@media only screen and (max-width : 763px) {
+
+#block-social{
+    margin-top: 15px;
+}
+.menu-block-3 ul {
+    max-width: 288px;
+    padding: 0px;
+}
+.menu-block-3 ul li{
+    margin-right: 0px;
+    padding: 0px;
+    margin-bottom: 20px;
+}
+#europeLogo{
+    margin: 3em 1em 1em 0.7em;
+}
+#europeLogo img{
+    width: 45px;
+}
+
+}
+
+@media only screen and (max-width : 450px) {
+
+#europeLogo{
+    float: right;
+    margin: 2em 1em 1em 0.7em;
+}
+#multi-lingual-award{
+    width: 100%;
+}
+#multi-lingual-award a{
+    display: block;
+    text-align: center;
+}
+#contact{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+}
+#google_translate_element{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+}
+
+}

@@ -1,0 +1,306 @@
+#
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Crawl-delay: 10
+# CSS, JS, Images
+Allow: /misc/*.css$
+Allow: /misc/*.css?
+Allow: /misc/*.js$
+Allow: /misc/*.js?
+Allow: /misc/*.gif
+Allow: /misc/*.jpg
+Allow: /misc/*.jpeg
+Allow: /misc/*.png
+Allow: /modules/*.css$
+Allow: /modules/*.css?
+Allow: /modules/*.js$
+Allow: /modules/*.js?
+Allow: /modules/*.gif
+Allow: /modules/*.jpg
+Allow: /modules/*.jpeg
+Allow: /modules/*.png
+Allow: /profiles/*.css$
+Allow: /profiles/*.css?
+Allow: /profiles/*.js$
+Allow: /profiles/*.js?
+Allow: /profiles/*.gif
+Allow: /profiles/*.jpg
+Allow: /profiles/*.jpeg
+Allow: /profiles/*.png
+Allow: /themes/*.css$
+Allow: /themes/*.css?
+Allow: /themes/*.js$
+Allow: /themes/*.js?
+Allow: /themes/*.gif
+Allow: /themes/*.jpg
+Allow: /themes/*.jpeg
+Allow: /themes/*.png
+# Directories
+Disallow: /includes/
+Disallow: /misc/
+Disallow: /modules/
+Disallow: /profiles/
+Disallow: /scripts/
+Disallow: /themes/
+# Files
+Disallow: /CHANGELOG.txt
+Disallow: /cron.php
+Disallow: /INSTALL.mysql.txt
+Disallow: /INSTALL.pgsql.txt
+Disallow: /INSTALL.sqlite.txt
+Disallow: /install.php
+Disallow: /INSTALL.txt
+Disallow: /LICENSE.txt
+Disallow: /MAINTAINERS.txt
+Disallow: /update.php
+Disallow: /UPGRADE.txt
+Disallow: /xmlrpc.php
+# Paths (clean URLs)
+Disallow: /admin/
+Disallow: /comment/reply/
+Disallow: /filter/tips/
+Disallow: /node/add/
+Disallow: /search/
+Disallow: /user/register/
+Disallow: /user/password/
+Disallow: /user/login/
+Disallow: /user/logout/
+# Paths (no clean URLs)
+Disallow: /?q=admin/
+Disallow: /?q=comment/reply/
+Disallow: /?q=filter/tips/
+Disallow: /?q=node/add/
+Disallow: /?q=search/
+Disallow: /?q=user/password/
+Disallow: /?q=user/register/
+Disallow: /?q=user/login/
+Disallow: /?q=user/logout/
+
+# CSS, JS, Images
+Allow: /vehicle-safety/misc/*.css$
+Allow: /vehicle-safety/misc/*.css?
+Allow: /vehicle-safety/misc/*.js$
+Allow: /vehicle-safety/misc/*.js?
+Allow: /vehicle-safety/misc/*.gif
+Allow: /vehicle-safety/misc/*.jpg
+Allow: /vehicle-safety/misc/*.jpeg
+Allow: /vehicle-safety/misc/*.png
+Allow: /vehicle-safety/modules/*.css$
+Allow: /vehicle-safety/modules/*.css?
+Allow: /vehicle-safety/modules/*.js$
+Allow: /vehicle-safety/modules/*.js?
+Allow: /vehicle-safety/modules/*.gif
+Allow: /vehicle-safety/modules/*.jpg
+Allow: /vehicle-safety/modules/*.jpeg
+Allow: /vehicle-safety/modules/*.png
+Allow: /vehicle-safety/profiles/*.css$
+Allow: /vehicle-safety/profiles/*.css?
+Allow: /vehicle-safety/profiles/*.js$
+Allow: /vehicle-safety/profiles/*.js?
+Allow: /vehicle-safety/profiles/*.gif
+Allow: /vehicle-safety/profiles/*.jpg
+Allow: /vehicle-safety/profiles/*.jpeg
+Allow: /vehicle-safety/profiles/*.png
+Allow: /vehicle-safety/themes/*.css$
+Allow: /vehicle-safety/themes/*.css?
+Allow: /vehicle-safety/themes/*.js$
+Allow: /vehicle-safety/themes/*.js?
+Allow: /vehicle-safety/themes/*.gif
+Allow: /vehicle-safety/themes/*.jpg
+Allow: /vehicle-safety/themes/*.jpeg
+Allow: /vehicle-safety/themes/*.png
+# Directories
+Disallow: /vehicle-safety/includes/
+Disallow: /vehicle-safety/misc/
+Disallow: /vehicle-safety/modules/
+Disallow: /vehicle-safety/profiles/
+Disallow: /vehicle-safety/scripts/
+Disallow: /vehicle-safety/themes/
+# Files
+Disallow: /vehicle-safety/CHANGELOG.txt
+Disallow: /vehicle-safety/cron.php
+Disallow: /vehicle-safety/INSTALL.mysql.txt
+Disallow: /vehicle-safety/INSTALL.pgsql.txt
+Disallow: /vehicle-safety/INSTALL.sqlite.txt
+Disallow: /vehicle-safety/install.php
+Disallow: /vehicle-safety/INSTALL.txt
+Disallow: /vehicle-safety/LICENSE.txt
+Disallow: /vehicle-safety/MAINTAINERS.txt
+Disallow: /vehicle-safety/update.php
+Disallow: /vehicle-safety/UPGRADE.txt
+Disallow: /vehicle-safety/xmlrpc.php
+# Paths (clean URLs)
+Disallow: /vehicle-safety/admin/
+Disallow: /vehicle-safety/comment/reply/
+Disallow: /vehicle-safety/filter/tips/
+Disallow: /vehicle-safety/node/add/
+Disallow: /vehicle-safety/user/register/
+Disallow: /vehicle-safety/user/password/
+Disallow: /vehicle-safety/user/login/
+Disallow: /vehicle-safety/user/logout/
+# Paths (no clean URLs)
+Disallow: /vehicle-safety/?q=admin/
+Disallow: /vehicle-safety/?q=comment/reply/
+Disallow: /vehicle-safety/?q=filter/tips/
+Disallow: /vehicle-safety/?q=node/add/
+Disallow: /vehicle-safety/?q=user/password/
+Disallow: /vehicle-safety/?q=user/register/
+Disallow: /vehicle-safety/?q=user/login/
+Disallow: /vehicle-safety/?q=user/logout/
+
+# CSS, JS, Images
+ Allow: /dangerous-substances/misc/*.css$
+ Allow: /dangerous-substances/misc/*.css?
+ Allow: /dangerous-substances/misc/*.js$
+ Allow: /dangerous-substances/misc/*.js?
+ Allow: /dangerous-substances/misc/*.gif
+ Allow: /dangerous-substances/misc/*.jpg
+ Allow: /dangerous-substances/misc/*.jpeg
+ Allow: /dangerous-substances/misc/*.png
+ Allow: /dangerous-substances/modules/*.css$
+ Allow: /dangerous-substances/modules/*.css?
+ Allow: /dangerous-substances/modules/*.js$
+ Allow: /dangerous-substances/modules/*.js?
+ Allow: /dangerous-substances/modules/*.gif
+ Allow: /dangerous-substances/modules/*.jpg
+ Allow: /dangerous-substances/modules/*.jpeg
+ Allow: /dangerous-substances/modules/*.png
+ Allow: /dangerous-substances/profiles/*.css$
+ Allow: /dangerous-substances/profiles/*.css?
+ Allow: /dangerous-substances/profiles/*.js$
+ Allow: /dangerous-substances/profiles/*.js?
+ Allow: /dangerous-substances/profiles/*.gif
+ Allow: /dangerous-substances/profiles/*.jpg
+ Allow: /dangerous-substances/profiles/*.jpeg
+ Allow: /dangerous-substances/profiles/*.png
+ Allow: /dangerous-substances/themes/*.css$
+ Allow: /dangerous-substances/themes/*.css?
+ Allow: /dangerous-substances/themes/*.js$
+ Allow: /dangerous-substances/themes/*.js?
+ Allow: /dangerous-substances/themes/*.gif
+ Allow: /dangerous-substances/themes/*.jpg
+ Allow: /dangerous-substances/themes/*.jpeg
+ Allow: /dangerous-substances/themes/*.png
+# Directories
+Disallow: /dangerous-substances/includes/
+Disallow: /dangerous-substances/misc/
+Disallow: /dangerous-substances/modules/
+Disallow: /dangerous-substances/profiles/
+Disallow: /dangerous-substances/scripts/
+Disallow: /dangerous-substances/themes/
+# Files
+Disallow: /dangerous-substances/CHANGELOG.txt
+Disallow: /dangerous-substances/cron.php
+Disallow: /dangerous-substances/INSTALL.mysql.txt
+Disallow: /dangerous-substances/INSTALL.pgsql.txt
+Disallow: /dangerous-substances/INSTALL.sqlite.txt
+Disallow: /dangerous-substances/install.php
+Disallow: /dangerous-substances/INSTALL.txt
+Disallow: /dangerous-substances/LICENSE.txt
+Disallow: /dangerous-substances/MAINTAINERS.txt
+Disallow: /dangerous-substances/update.php
+Disallow: /dangerous-substances/UPGRADE.txt
+Disallow: /dangerous-substances/xmlrpc.php
+# Paths (clean URLs)
+Disallow: /dangerous-substances/admin/
+Disallow: /dangerous-substances/comment/reply/
+Disallow: /dangerous-substances/filter/tips/
+Disallow: /dangerous-substances/node/add/
+Disallow: /dangerous-substances/user/register/
+Disallow: /dangerous-substances/user/password/
+Disallow: /dangerous-substances/user/login/
+Disallow: /dangerous-substances/user/logout/
+# Paths (no clean URLs)
+Disallow: /dangerous-substances/?q=admin/
+Disallow: /dangerous-substances/?q=comment/reply/
+Disallow: /dangerous-substances/?q=filter/tips/
+Disallow: /dangerous-substances/?q=node/add/
+Disallow: /dangerous-substances/?q=user/password/
+Disallow: /dangerous-substances/?q=user/register/
+Disallow: /dangerous-substances/?q=user/login/
+Disallow: /dangerous-substances/?q=user/logout/
+
+# CSS, JS, Images
+ Allow: /all-ages/misc/*.css$
+ Allow: /all-ages/misc/*.css?
+ Allow: /all-ages/misc/*.js$
+ Allow: /all-ages/misc/*.js?
+ Allow: /all-ages/misc/*.gif
+ Allow: /all-ages/misc/*.jpg
+ Allow: /all-ages/misc/*.jpeg
+ Allow: /all-ages/misc/*.png
+ Allow: /all-ages/modules/*.css$
+ Allow: /all-ages/modules/*.css?
+ Allow: /all-ages/modules/*.js$
+ Allow: /all-ages/modules/*.js?
+ Allow: /all-ages/modules/*.gif
+ Allow: /all-ages/modules/*.jpg
+ Allow: /all-ages/modules/*.jpeg
+ Allow: /all-ages/modules/*.png
+ Allow: /all-ages/profiles/*.css$
+ Allow: /all-ages/profiles/*.css?
+ Allow: /all-ages/profiles/*.js$
+ Allow: /all-ages/profiles/*.js?
+ Allow: /all-ages/profiles/*.gif
+ Allow: /all-ages/profiles/*.jpg
+ Allow: /all-ages/profiles/*.jpeg
+ Allow: /all-ages/profiles/*.png
+ Allow: /all-ages/themes/*.css$
+ Allow: /all-ages/themes/*.css?
+ Allow: /all-ages/themes/*.js$
+ Allow: /all-ages/themes/*.js?
+ Allow: /all-ages/themes/*.gif
+ Allow: /all-ages/themes/*.jpg
+ Allow: /all-ages/themes/*.jpeg
+ Allow: /all-ages/themes/*.png
+# Directories
+Disallow: /all-ages/includes/
+Disallow: /all-ages/misc/
+Disallow: /all-ages/modules/
+Disallow: /all-ages/profiles/
+Disallow: /all-ages/scripts/
+Disallow: /all-ages/themes/
+# Files
+Disallow: /all-ages/CHANGELOG.txt
+Disallow: /all-ages/cron.php
+Disallow: /all-ages/INSTALL.mysql.txt
+Disallow: /all-ages/INSTALL.pgsql.txt
+Disallow: /all-ages/INSTALL.sqlite.txt
+Disallow: /all-ages/install.php
+Disallow: /all-ages/INSTALL.txt
+Disallow: /all-ages/LICENSE.txt
+Disallow: /all-ages/MAINTAINERS.txt
+Disallow: /all-ages/update.php
+Disallow: /all-ages/UPGRADE.txt
+Disallow: /all-ages/xmlrpc.php
+# Paths (clean URLs)
+Disallow: /all-ages/admin/
+Disallow: /all-ages/comment/reply/
+Disallow: /all-ages/filter/tips/
+Disallow: /all-ages/node/add/
+Disallow: /all-ages/user/register/
+Disallow: /all-ages/user/password/
+Disallow: /all-ages/user/login/
+Disallow: /all-ages/user/logout/
+# Paths (no clean URLs)
+Disallow: /all-ages/?q=admin/
+Disallow: /all-ages/?q=comment/reply/
+Disallow: /all-ages/?q=filter/tips/
+Disallow: /all-ages/?q=node/add/
+Disallow: /all-ages/?q=user/password/
+Disallow: /all-ages/?q=user/register/
+Disallow: /all-ages/?q=user/login/
+Disallow: /all-ages/?q=user/logout/
